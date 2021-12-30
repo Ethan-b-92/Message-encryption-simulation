@@ -8,7 +8,7 @@ import Salsa_UI
 
 def main():
     #the key should be randomly generated. a constant string is used to show that el-gamal sends the key properly
-    encryption_key = "32bitkey32bitkey32bitkey32bitkey"
+    encryption_key = "64bitkey64bitkey64bitkey64bitkey"
     print("Alice generates a key to use in salsa20 encryption, the key is: " + encryption_key)
     print("Alice generates private and public keys in order to encrypt the key using el-gamal encryption.\n")
     keys = elgamal.gen_key(256, 32)

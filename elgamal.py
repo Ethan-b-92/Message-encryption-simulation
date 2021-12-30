@@ -1,3 +1,5 @@
+# not original implementation, found source code on the net.
+
 import random
 import math
 import sys
